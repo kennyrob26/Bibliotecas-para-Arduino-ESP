@@ -1,10 +1,10 @@
 # Biblioteca Ultrassonico para sensor HC-SR04
 
-A biblioteca retorna a distância utilizando o sensor ultrassônico HC-SR04  
-Os valores utilizados para a medição da distância está presente no datasheet: https://datasheetspdf.com/pdf-file/1380137/HandsOn/HC-SR04/1  
-Lembrando que a distância que o sensor opera está entre 2cm e 400cm, ou seja, em distância maiores que 4 metros a possibilidade de receber dados incorretos é muito grande. Por isso a biblioteca verifica se o puso foi maior que 23200, em caso afirmativo retorna NULL  
-Para mais detalhes sobre o sensor acesse o datasheet do componente, Vamos conhecer agora os métodos presentes na biblioteca  
-## Funções
+	A biblioteca retorna a distância utilizando o sensor ultrassônico HC-SR04  
+	Os valores utilizados para a medição da distância está presente no datasheet: https://datasheetspdf.com/pdf-file/1380137/HandsOn/HC-SR04/1  
+	Lembrando que a distância que o sensor opera está entre 2cm e 400cm, ou seja, em distância maiores que 4 metros a possibilidade de receber dados incorretos é muito grande. Por isso a biblioteca verifica se o puso foi maior que 23200, em caso afirmativo retorna NULL  
+	Para mais detalhes sobre o sensor acesse o datasheet do componente, Vamos conhecer agora os métodos presentes na biblioteca  
+## Métodos
 
 **`Ultrassonico(int trig, int echo)`** -> é o método construtor, onde:  
 	**`int trig`** -> é a porta onde está conectado o pino trigger  
