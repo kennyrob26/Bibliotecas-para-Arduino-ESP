@@ -1,0 +1,8 @@
+Ultrassonico	KEYWORD1
+
+Ultrassonico	KEYWORD2
+pulso		KEYWORD2
+emCentimetro	KEYWORD2
+emPolegada	KEYWORD2
+emMetro		KEYWORD2
+emMilimetro   KEYWORD2
