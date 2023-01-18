@@ -20,7 +20,7 @@ Para mais detalhes sobre o sensor acesse o datasheet do componente, vamos conhec
 
 **`emMilimetro()`** -> Converte o resultado de 'emCentimetro' para milímetros  
 
-##Como utilizar 
+## Como utilizar 
 
 A utilização é muito simples e pode ser vista no arquivo exemplo.ino, mas de forma resumida o funcionamento, apenas criamos uma instância da classe **`Ultrassonico`** e definimos os pinos trigger e echo, e após isso podemos utilizar qualquer um dos métodos que vimos a cima
 
