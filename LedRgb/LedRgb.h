@@ -20,6 +20,9 @@ class LedRgb{
         void setFrequencia(int freq);
         void setCiclo(int c);
         void cor(int red, int green, int blue);
+        void corR(int red);
+        void corG(int green);
+        void corB(int blue);
 
     private:
         //GPIOs

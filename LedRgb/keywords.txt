@@ -4,8 +4,11 @@ LedRgb		KEYWORD2
 setCanais	KEYWORD2
 setFrequencia	KEYWORD2
 setCiclo	KEYWORD2
-cor		KEYWORD2
+cor		    KEYWORD2
 getLedR		KEYWORD2
 getLedG		KEYWORD2
 getLedB		KEYWORD2
+corR        KEYWORD2
+corG        KEYWORD2    
+corB        KEYWORD2
 

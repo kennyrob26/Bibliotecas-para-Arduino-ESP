@@ -45,8 +45,22 @@ void LedRgb::setCiclo(int c){
 }
 
 void LedRgb::cor(int red, int green, int blue){
-    ledcWrite(canalR, red);
-    ledcWrite(canalG, green);
-    ledcWrite(canalB, blue);
+    this->corR(red);
+    this->corG(green);
+    this->corB(blue);
+    //ledcWrite(canalR, red);
+    //ledcWrite(canalG, green);
+    //ledcWrite(canalB, blue);
 }
 
+void LedRgb::corR(int red){
+    ledcWrite(canalR, red);
+}
+
+void LedRgb::corG(int green){
+    ledcWrite(canalG, green);
+}
+
+void LedRgb::corB(int blue){
+    ledcWrite(canalB, blue);
+}

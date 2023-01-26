@@ -5,6 +5,8 @@ A biblioteca LedRgb tem como finalidade facilitar o uso de leds RGB, com poucas 
 Encontramos um simples exemplo de uso dentro da pasta exemplo desse repositório  
 
 ## Como utilizar
+
+### O método cor();
 Logo após incluirmos a bilbioteca **ledRgb.h**, devemos instanciar o objeto da classe LedRgb, o método construtor recebe como parâmetro os pinos R, G e B, em sequência  
 `LedRgB ledRgb(pinoRed, pinoGreen, pinoBlue).`  
 **Exemplo de uso**
@@ -16,6 +18,13 @@ Partindo diretamente para o **loop**, nós chamamos o método cor, que recebe co
 `ledRgb.cor(255, 0, 0);` O led ficará na cor vermelha  
 `ledRgb.cor(0, 255, 0);` O led ficaŕa na cor verde  
 `ledRgb.cor(0, 0, 255);` O led ficará na cor azul  
+
+### Os métodos corR(), corG() e corB();
+O método cor() é muito util para quando desejamos setar as 3 cores do led RGB, mas se torna um problema quando é necessário alterarmos apenas uma cor e mater o valor das outras, para isso utilizamos os métodos a baixo, que alteram uma cor de forma independente, sem comprometer o valor das outra duas:  
+`ledRgb.corR(valor);` Altera apenas a cor vermelha  
+`ledRgb.corG(valor);` Altera apenas a cor verde  
+`ledRgb.corB(valor);` Altera apenas a cor azul  
+
 
 ## Como mudar as predefinições
 Por padrão a biblioteca já vem com as configurações pwm pré definidas, como o canal, a frequência e o cliclo (resolução) do pwm;
