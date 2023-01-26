@@ -1,7 +1,7 @@
 /*
  *Bibioteca desenvolvida por Kenny Robert
- *Desenvolvida em 25/01/2022
- *Ultima modificação em: ... 
+ *Desenvolvida em 25/01/2023
+ *Ultima modificação em: 26/01/2023
  *
  * O objetivo da biblioteca é facilitar o uso de leds RGB no ESP32
  * O usuário apenas instancia um objeto da classe LedRgb, e define os pinos para cada cor
@@ -23,12 +23,20 @@ class LedRgb{
         void corR(int red);
         void corG(int green);
         void corB(int blue);
+        int getCorR();
+        int getCorG();
+        int getCorB();
 
     private:
         //GPIOs
         int ledR;   //pino led vermelho
         int ledG;   //pino led verde
         int ledB;   //pino led azul
+
+        //Armazenam a cor atual
+        int red;
+        int green;
+        int blue;
 
         //Configurações do pwm
         int frequencia;

@@ -11,4 +11,7 @@ getLedB		KEYWORD2
 corR        KEYWORD2
 corG        KEYWORD2    
 corB        KEYWORD2
+getCorR     KEYWORD2
+getCorB     KEYWORD2
+getCorG     KEYWORD2
 

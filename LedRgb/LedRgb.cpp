@@ -55,12 +55,26 @@ void LedRgb::cor(int red, int green, int blue){
 
 void LedRgb::corR(int red){
     ledcWrite(canalR, red);
+    this->red = red;
 }
 
 void LedRgb::corG(int green){
     ledcWrite(canalG, green);
+    this->green = green;
 }
 
 void LedRgb::corB(int blue){
     ledcWrite(canalB, blue);
+    this->blue = blue;
+
+}
+
+int LedRgb::getCorR(){
+    return this->red;
+}
+int LedRgb::getCorG(){
+    return this->green;
+}
+int LedRgb::getCorB(){
+    return this->blue;
 }
