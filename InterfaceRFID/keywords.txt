@@ -1,0 +1,24 @@
+
+# Construtores de Classe
+InterfaceRFID	KEYWORD1
+NomeCampo	KEYWORD1
+
+
+# Metodos publicos InterfaceRFID
+lerBloco		KEYWORD2
+gravarBloco		KEYWORD2
+iniciarRFID		KEYWORD2
+existirTag		KEYWORD2
+encerrarComunicacaoTag	KEYWORD2
+
+# Metodos privados NomeCampo
+validarQuantidadeCaracteres	KEYWORD2
+validarBlocos			KEYWORD2
+
+# Metodos publicos NomeCampo
+NomeCampo	KEYWORD2
+setBlocos	KEYWORD2
+setSetor	KEYWORD2
+gravar		KEYWORD2
+ler		KEYWORD2
+
